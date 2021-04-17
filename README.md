@@ -30,3 +30,17 @@ to the ```require``` section of your `composer.json` file.
 You can view demo and examples [here](https://developer.snapappointments.com/bootstrap-select/examples/).
 
 ## Usage
+
+```php
+<?= $form->field($model, 'attribute')->widget(SelectPicker::class, [
+    'items' => ArrayHelper::map(User::find()->all(), 'id', 'email'),
+    'options' => [
+        'prompt' => '',
+        'multiple' => true,
+    ],  
+    'clientOptions' => [
+        'liveSearch' => true,
+    ],
+    'clientEvents' => [],
+]) ?>
+```
