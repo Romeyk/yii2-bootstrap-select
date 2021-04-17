@@ -1,0 +1,30 @@
+{
+    "name": "romeyk/yii2-bootstrap-select",
+    "description": "Select widget for Yii2.",
+    "keywords": ["yii2", "widget", "bootstrap", "select", "selectpicker","dropdown"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Roman Chuykov",
+            "email": "mail@romeyk.org.ua"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "bower-asset/bootstrap-select": "~1.13"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "romeyk\\selectpicker\\": "src"
+        }
+    }
+}
