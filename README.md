@@ -40,6 +40,9 @@ You can view demo and examples [here](https://developer.snapappointments.com/boo
     ],  
     'clientOptions' => [
         'liveSearch' => true,
+        'noneSelectedText' => '',
+        'styleBase' => 'form-control',
+        'style' => '',
     ],
     'clientEvents' => [],
 ]) ?>
