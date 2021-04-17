@@ -1,6 +1,6 @@
 <?php
 /**
- * @link https://github.com/Romeyk/yii2-bootstrap-select
+ * @link https://github.com/romeyk/yii2-bootstrap-select
  * @copyright Copyright (c) 2021 Roman Chuykov
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
